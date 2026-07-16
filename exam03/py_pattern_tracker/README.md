@@ -1,0 +1,43 @@
+py_pattern_tracker
+py_pattern_tracker.py
+Suggest Exercise
+Help grow this exam bank
+Suggest a new subject, report a wrong brief, or flag outdated text. Short Google form.
+✕
+
+Assignment
+Write a function that counts the number of valid consecutive digit pairs
+in a string. A valid pair consists of two adjacent digits where the second digit is exactly one greater than the first.
+A 9 followed by a 0 is NOT a valid pair.
+
+Function signature
+def pattern_tracker(text: str) -> int:
+Examples
+Input
+pattern_tracker("123")
+Output
+2
+Input
+pattern_tracker("12a34")
+Output
+2
+Input
+pattern_tracker("987654321")
+Output
+0
+Input
+pattern_tracker("01234567")
+Output
+7
+Input
+pattern_tracker("abc")
+Output
+0
+Input
+pattern_tracker("1a2b3c4")
+Output
+0
+Input
+pattern_tracker("112233")
+Output
+2
